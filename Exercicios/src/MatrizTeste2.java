@@ -5,9 +5,9 @@ public class MatrizTeste2 {
         int[][]matrix = new int [4][4];
         
         for(int i = 0; i < matrix.length; i++ ){
-            System.out.print("row " + i + " : ");
+            System.out.print("Linha " + i + " : ");
             for (int j = 0; j < matrix[i].length; j++){
-                System.out.print("col " + j + " ");
+                System.out.print("Coluna " + j + " ");
             }
             System.out.println();
         }
